@@ -19,6 +19,7 @@ while ($line = mysql_fetch_array($result, MYSQL_ASSOC)) {
     echo "\t</tr>\n";
 }
 echo "</table>\n";
+ououiouio
 
 // Liberar resultados
 mysql_free_result($result);
