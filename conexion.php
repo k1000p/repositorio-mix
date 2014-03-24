@@ -1,41 +1,16 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-        <?php
-        // put your code here
-        ?>
+<?php
+$resultado = mysql_query("SELECT id,email FROM people WHERE id = '42'");
+if (!$resultado) {
+    echo 'No se pudo ejecutar la consulta: ' . mysql_error();
+    exit;
+}sd
+$fila       = mysql_fetch_assoc($resultado);
+$longitudes = mysql_fetch_lengths($resultado);
+text = mix
 
-</html>
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-    </head>
-    <body>
-    <?php
-        <?phpdfgdf
-        // put your code here
-        echo "string";
+print_r($fila);
+print_r($longitudes);
+sasdasda
 
-        ?>
-	<<a href="mailto:joe@example.com?subject=feedback" "email me">email me</a>
-        ?>
-        primer agregado
-    </body>
-</html>
-
+ncurses_assume_default_colors(as, bg)
+?>
