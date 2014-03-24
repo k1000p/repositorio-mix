@@ -1,7 +1,7 @@
 <?php
 
 /**
-* 
+*
 */
 class ClassName extends AnotherClass
 {
@@ -18,5 +18,6 @@ class ClassName extends AnotherClass
 		register_tick_function(function)
 		erter
 		private mix
+		color: #444000;
 	}
 }
